@@ -1,0 +1,12 @@
+{
+  "opts": {
+    "destination": "../com-aponica/GENDOCS/jsdoc-plugin-linecomments"
+    },
+  "plugins": [
+    ".",
+    "plugins/markdown"
+    ],
+  "source": {
+    "include": [ "README.md", ".", "./src" ]
+    }
+}
