@@ -22,7 +22,7 @@
 
 module.exports = {
   handlers: {
-    beforeParse: require( './src/fBeforeParse.js' )
+    beforeParse: require( './lib/fBeforeParse.js' )
     }
   };
 
