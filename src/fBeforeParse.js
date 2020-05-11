@@ -14,8 +14,11 @@
 //    asterisk). The comment MAY be preceded by whitespace.
 //
 //    For all immediately-following lines that begin with two slashes (again,
-//    optionally preceded by whitespace), the slashes (and any surrounding
-//    whitespace) are replaced with space+asterisk+space.
+//    optionally preceded by whitespace), the slashes (and any preceding
+//    whitespace) are replaced with space+asterisk+space. The whitespace that
+//    follows the slashes for the first line of the comment is remembered and
+//    stripped, and only the same whitespace is stripped from all following
+//    lines, preserving any remaining whitespace for relative indentation.
 //
 //    The comment is expected to be terminated with the same line as the one
 //    that started it (beginning with two slashes followed by a non-whitespace
@@ -24,11 +27,25 @@
 //
 //  @param {Event} iEvent
 //    The before parse event.
+//
+//  @example <caption>The source:</caption>
+//    ///
+//    ///  first line
+//    ///  second line
+//    ///      third line
+//    ///
+//  @example <caption>results in:</caption>
+//    ∕**
+//     * first line
+//     * second line
+//     *     third line
+//     *∕
 //-----------------------------------------------------------------------------
 
 module.exports = function ( iEvent ) {
 
   let zStart = null;
+  let reReplace = null;
 
   iEvent.source =
     iEvent.source.split( '\n' ).map( zLine => {
@@ -47,11 +64,15 @@ module.exports = function ( iEvent ) {
       else { // process comment line
 
         if ( zLine === zStart ) { // end of comment
-          zStart = null;
-          return '*/';
+          zStart = reReplace = null;
+          return ' */';
           }
 
-        return zLine.replace( /^\s*\/\/\s*/, ' * ' );
+        if ( null === reReplace )
+          reReplace = new RegExp(
+            '^\s*\/\/(' + zLine.match( /^\s*\/\/(\s*)/ )[ 1 ] + ')?' );
+
+        return zLine.replace( reReplace, ' * ' );
 
         } // process comment line
 
