@@ -1,9 +1,4 @@
 # @aponica/jsdoc-plugin-linecomments
-<style>
-h2{clear:left}
-img.leftimg{float:left;margin-right:1em}
-</style>
-
 
 [JSDoc](https://www.npmjs.com/package/jsdoc) support for end-of-line style 
 comments (`//…`).
@@ -82,3 +77,5 @@ MIT License.
 ## Related Links
 
 [Online Documentation](https://aponica.com/docs/jsdoc-plugin-linecomments/)
+
+<style>h2{clear:left}img.leftimg{float:left;margin-right:1em}</style>
