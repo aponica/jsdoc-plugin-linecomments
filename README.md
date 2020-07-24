@@ -1,4 +1,9 @@
 # @aponica/jsdoc-plugin-linecomments
+<style>
+h2{clear:left}
+img.leftimg{float:left;margin-right:1em}
+</style>
+
 
 [JSDoc](https://www.npmjs.com/package/jsdoc) support for end-of-line style 
 comments (`//…`).
@@ -54,6 +59,17 @@ as a plugin:
 ```
 
 That should do it!
+
+## Please Donate!
+
+[<img src="https://aponica.com/lib/helpinghand.png"
+ class=leftimg>](https://www.paypal.com/biz/fund?id=BEHTAS8WARM68)
+
+Help keep a roof over our heads and food on our plates! 
+If you find aponica™ open source software useful, please 
+[click here](https://www.paypal.com/biz/fund?id=BEHTAS8WARM68) 
+to make a one-time or recurring donation via *PayPal*, credit 
+or debit card. Thank you kindly!
 
 ## Copyright
 
