@@ -1,6 +1,6 @@
 {
   "name": "@aponica/jsdoc-plugin-linecomments",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "JSDoc support for end-of-line style comments (//…).",
   "homepage": "https://aponica.com/docs/jsdoc-plugin-linecomments/",
   "keywords": [
