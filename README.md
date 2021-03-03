@@ -68,7 +68,7 @@ or debit card. Thank you kindly!
 
 ## Copyright
 
-Copyright 2020 Opplaud LLC and other contributors.
+Copyright 2020-2021 Opplaud LLC and other contributors.
 
 ## License
 
