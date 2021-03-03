@@ -61,7 +61,7 @@ That should do it!
  class=leftimg>](https://www.paypal.com/biz/fund?id=BEHTAS8WARM68)
 
 Help keep a roof over our heads and food on our plates! 
-If you find aponica™ open source software useful, please 
+If you find aponica® open source software useful, please 
 [click here](https://www.paypal.com/biz/fund?id=BEHTAS8WARM68) 
 to make a one-time or recurring donation via *PayPal*, credit 
 or debit card. Thank you kindly!
