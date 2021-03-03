@@ -74,6 +74,10 @@ Copyright 2020 Opplaud LLC and other contributors.
 
 MIT License.
 
+## Trademarks
+
+OPPLAUD and aponica are registered trademarks of Opplaud LLC.
+
 ## Related Links
 
 [Online Documentation](https://aponica.com/docs/jsdoc-plugin-linecomments/)
