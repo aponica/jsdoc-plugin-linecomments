@@ -59,7 +59,7 @@ That should do it!
 
 Help keep a roof over our heads and food on our plates! 
 If you find aponica® open source software useful, please 
-**[<u>click here</u>](https://www.paypal.com/biz/fund?id=BEHTAS8WARM68)** 
+**[click here](https://www.paypal.com/biz/fund?id=BEHTAS8WARM68)** 
 to make a one-time or recurring donation via *PayPal*, credit 
 or debit card. Thank you kindly!
 
@@ -77,8 +77,7 @@ OPPLAUD and aponica are registered trademarks of Opplaud LLC.
 
 ## Related Links
 
-[Online Documentation](https://aponica.com/docs/jsdoc-plugin-linecomments/)
-
-[GitHub Repository](https://github.com/aponica/jsdoc-plugin-linecomments)
-
-[NPM Package](https://www.npmjs.com/package/@aponica/jsdoc-plugin-linecomments)
+* [Online Documentation](https://aponica.com/docs/jsdoc-plugin-linecomments/)
+* [GitHub Repository](https://github.com/aponica/jsdoc-plugin-linecomments)
+* [NPM Package](https://www.npmjs.com/package/@aponica/jsdoc-plugin-linecomments)
+* [JSDoc](https://www.npmjs.com/package/jsdoc)
