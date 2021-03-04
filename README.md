@@ -77,7 +77,12 @@ OPPLAUD and aponica are registered trademarks of Opplaud LLC.
 
 ## Related Links
 
-* [Online Documentation](https://aponica.com/docs/jsdoc-plugin-linecomments/)
+Official links for this project:
+
+* [Home Page & Online Documentation](https://aponica.com/docs/jsdoc-plugin-linecomments/)
 * [GitHub Repository](https://github.com/aponica/jsdoc-plugin-linecomments)
 * [NPM Package](https://www.npmjs.com/package/@aponica/jsdoc-plugin-linecomments)
+  
+Related projects:
+
 * [JSDoc](https://www.npmjs.com/package/jsdoc)
